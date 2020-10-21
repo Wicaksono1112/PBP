@@ -79,7 +79,7 @@
                                     <select name="id_kategori" class="form-control" required>
                                         <option value="" selected disabled>Pilih kategori</option>
 <?php foreach($kategori->result() as $row){?>
-                                        <option value="<?= $row->id_kategori?>" <?php if($result->id_kategori == $row->id_kategori) echo "selected"?>><?= $row->nama?></option>
+                                        <option value="<?= $row->id_kategori?>" <?php if($result->id_kategori == $row->id_kategori) return "selected"?>><?= $row->nama?></option>
 <?php } ?>
                                     </select>
                                 </div>
@@ -88,7 +88,7 @@
                                     <select name="id_sub_kategori" class="form-control" required>
                                         <option value="">Pilih sub kategori</option>
 <?php foreach($sub_kategori->result() as $row){?>
-                                        <option value="<?= $row->id_sub_kategori?>" <?php if($result->id_sub_kategori == $row->id_sub_kategori) echo "selected"?>><?= $row->nama?></option>
+                                        <option value="<?= $row->id_sub_kategori?>" <?php if($result->id_sub_kategori == $row->id_sub_kategori) return "selected"?>><?= $row->nama?></option>
 <?php } ?>
                                     </select>
                                 </div>
