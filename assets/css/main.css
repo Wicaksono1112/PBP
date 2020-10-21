@@ -7,21 +7,17 @@
   font-family: Ubuntu-Bold;
   src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
 }
-
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
-
 * {
 	margin: 0px; 
 	padding: 0px; 
 	box-sizing: border-box;
 }
-
 body, html {
 	height: 100%;
 	font-family: Ubuntu-Regular, sans-serif;
 }
-
 /*---------------------------------------------*/
 a {
 	font-family: Ubuntu-Regular;
@@ -34,21 +30,17 @@ a {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
-
 a:focus {
 	outline: none !important;
 }
-
 a:hover {
 	text-decoration: none;
   color: #403866;
 }
-
 /*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
-
 p {
 	font-family: Ubuntu-Regular;
 	font-size: 14px;
@@ -56,78 +48,58 @@ p {
 	color: #666666;
 	margin: 0px;
 }
-
 ul, li {
 	margin: 0px;
 	list-style-type: none;
 }
-
-
 /*---------------------------------------------*/
 input {
 	outline: none;
 	border: none;
 }
-
 textarea {
   outline: none;
   border: none;
 }
-
 textarea:focus, input:focus {
   border-color: transparent !important;
 }
-
 input::-webkit-input-placeholder { color: #8f8fa1;}
 input:-moz-placeholder { color: #8f8fa1;}
 input::-moz-placeholder { color: #8f8fa1;}
 input:-ms-input-placeholder { color: #8f8fa1;}
-
 textarea::-webkit-input-placeholder { color: #8f8fa1;}
 textarea:-moz-placeholder { color: #8f8fa1;}
 textarea::-moz-placeholder { color: #8f8fa1;}
 textarea:-ms-input-placeholder { color: #8f8fa1;}
-
 label {
   display: block;
   margin: 0;
 }
-
 /*---------------------------------------------*/
 button {
 	outline: none !important;
 	border: none;
 	background: transparent;
 }
-
 button:hover {
 	cursor: pointer;
 }
-
 iframe {
 	border: none !important;
-}
-
-
-/*//////////////////////////////////////////////////////////////////
+}/*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
   font-family: Ubuntu-Regular;
   font-size: 16px;
   color: #827ffe;
   line-height: 1.4;
-}
-
-
-
-/*//////////////////////////////////////////////////////////////////
+}/*//////////////////////////////////////////////////////////////////
 [ login ]*/
-
 .limiter {
   width: 100%;
   margin: 0 auto;
 }
-
 .container-login100 {
   width: 100%;  
   min-height: 100vh;
@@ -145,23 +117,17 @@ iframe {
   background-size: cover;
   background-repeat: no-repeat;;
 }
-
-
 .wrap-login100 {
   width: 390px;
   background: #fff;
   border-radius: 10px;
   position: relative;
 }
-
-
 /*==================================================================
 [ Form ]*/
-
 .login100-form {
   width: 100%;
 }
-
 .login100-form-title {
   font-family: Ubuntu-Bold;
   font-size: 30px;
