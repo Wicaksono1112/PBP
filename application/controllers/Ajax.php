@@ -14,7 +14,7 @@ class Ajax extends CI_Controller{
                 else $result["status"] = "error";
             }
         }
-        echo json_encode($result);
+        result json_encode($result);
     }
 
     public function kategori($parameter){
@@ -30,7 +30,7 @@ class Ajax extends CI_Controller{
                 else $result["status"] = "error";
             }
         }
-        echo json_encode($result);
+        result json_encode($result);
     }
 
     public function sub_kategori($parameter){
@@ -46,7 +46,7 @@ class Ajax extends CI_Controller{
                 else $result["status"] = "error";
             }
         }
-        echo json_encode($result);
+        result json_encode($result);
     }
 
     public function produk($parameter){
@@ -62,7 +62,7 @@ class Ajax extends CI_Controller{
                 else $result["status"] = "error";
             }
         }
-        echo json_encode($result);
+        result json_encode($result);
     }
 
     public function check_login(){
