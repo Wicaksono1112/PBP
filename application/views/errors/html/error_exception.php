@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<p style="margin-left:10px">
 			File: <?php echo $error['file']; ?><br />
 			Line: <?php echo $error['line']; ?><br />
-			Function: <?= $error['function']; ?>
+			Function: <?php echo $error['function']; ?>
 			</p>
 		<?php endif ?>
 
