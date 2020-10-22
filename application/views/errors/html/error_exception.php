@@ -6,10 +6,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <h4>An uncaught Exception was encountered</h4>
 
-<p>Type: <?= get_class($exception); ?></p>
-<p>Message: <?= $message; ?></p>
-<p>Filename: <?= $exception->getFile(); ?></p>
-<p>Line Number: <?= $exception->getLine(); ?></p>
+<p>Type: <?php echo get_class($exception); ?></p>
+<p>Message: <?php echo $message; ?></p>
+<p>Filename: <?php echo $exception->getFile(); ?></p>
+<p>Line Number: <?php echo $exception->getLine(); ?></p>
 
 <?php if (defined('SHOW_DEBUG_BACKTRACE') && SHOW_DEBUG_BACKTRACE === TRUE): ?>
 
@@ -19,8 +19,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<?php if (isset($error['file']) && strpos($error['file'], realpath(BASEPATH)) !== 0): ?>
 
 			<p style="margin-left:10px">
-			File: <?= $error['file']; ?><br />
-			Line: <?= $error['line']; ?><br />
+			File: <?php echo $error['file']; ?><br />
+			Line: <?php echo $error['line']; ?><br />
 			Function: <?= $error['function']; ?>
 			</p>
 		<?php endif ?>
