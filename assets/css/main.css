@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: Ubuntu-Bold;
-  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
+	src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
 }
 * {
-	margin: 0px; 
-	padding: 0px; 
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 body, html {
